@@ -31,8 +31,6 @@ import {MessagesService} from './services/messages.service';
 import { CreateLessonComponent } from './create-lesson/create-lesson.component';
 import {CourseDetailResolver} from './course-detail/course-detail.resolver';
 import { LoadingComponent } from './loading/loading.component';
-import { LessonService } from 'app/services/lesson.service';
-
 
 @NgModule({
     declarations: [
@@ -70,13 +68,14 @@ import { LessonService } from 'app/services/lesson.service';
         UserService,
         CoursesHttpService,
         MessagesService,
-        CourseDetailResolver,
-        LessonService
+        CourseDetailResolver
     ],
     bootstrap: [AppComponent]
 })
 export class AppModule {
 }
+
+
 
 
 

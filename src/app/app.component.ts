@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import { initObservable } from 'app/init-observable';
 
 @Component({
     selector: 'app-root',
@@ -8,5 +9,9 @@ import {Component, OnInit} from '@angular/core';
 export class AppComponent  {
 
     title = 'app works!';
+
+    constructor() {
+        initObservable();
+    }
 
 }

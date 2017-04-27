@@ -1,5 +1,6 @@
 import {Injectable} from '@angular/core';
-import {Observable, BehaviorSubject} from "rxjs";
+// tslint:disable-next-line:import-blacklist
+import {Observable, BehaviorSubject} from 'rxjs';
 
 @Injectable()
 export class MessagesService {
