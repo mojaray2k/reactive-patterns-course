@@ -10,6 +10,7 @@ export class EventBusExperimentsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }

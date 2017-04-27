@@ -1,5 +1,5 @@
 // tslint:disable-next-line:class-name
-export interface lesson {
+export interface Lesson {
     id: number;
     description: string;
     duration: string;
